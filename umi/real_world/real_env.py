@@ -6,7 +6,7 @@ import shutil
 import math
 from multiprocessing.managers import SharedMemoryManager
 from umi.real_world.rtde_interpolation_controller import RTDEInterpolationController
-from umi.real_world.wsg_controller import WSGController
+from umi.real_world.wpg_controller import WPGController
 from umi.real_world.multi_uvc_camera import MultiUvcCamera
 from umi.real_world.video_recorder import VideoRecorder
 from diffusion_policy.common.timestamp_accumulator import (
@@ -187,7 +187,7 @@ class RealEnv:
             get_max_k=max_obs_buffer_size
             )
         
-        gripper = WSGController(
+        gripper = WPGController(
             shm_manager=shm_manager,
             hostname=gripper_ip,
             port=gripper_port,
