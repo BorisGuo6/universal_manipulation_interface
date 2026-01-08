@@ -48,7 +48,8 @@ from umi.common.cv_util import (
 from diffusion_policy.common.pytorch_util import dict_apply
 from diffusion_policy.workspace.base_workspace import BaseWorkspace
 from umi.common.precise_sleep import precise_wait
-from umi.real_world.bimanual_umi_env import BimanualUmiEnv
+#from umi.real_world.bimanual_umi_env import BimanualUmiEnv
+from umi.real_world.tmi_env import TmiEnv
 from umi.real_world.keystroke_counter import (
     KeystrokeCounter, Key, KeyCode
 )
@@ -172,7 +173,7 @@ def main(input, output, robot_config,
     with SharedMemoryManager() as shm_manager:
         with Spacemouse(shm_manager=shm_manager) as sm, \
             KeystrokeCounter() as key_counter, \
-            BimanualUmiEnv(
+            TmiEnv(
                 output_dir=output,
                 robots_config=robots_config,
                 grippers_config=grippers_config,

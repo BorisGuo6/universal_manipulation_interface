@@ -147,6 +147,20 @@ def main(input, output, tcp_offset, tx_slam_tag,
     
     # find videos
     video_dirs = sorted([x.parent for x in demos_dir.glob('demo_*/raw_video.mp4')])
+    
+    def get_index_from_path(x):
+        index = str(x).split("_")[-1]
+        index_number = int(index.split(".")[0])
+        return index_number
+    
+    # find GelSight and TAC-02 directories
+    # sorted for consistency with GoPro videos
+    gelsight_paths = sorted([x for x in input_path.glob('gelsight/*.mov')], key=get_index_from_path)
+    tac02_paths = sorted([x for x in input_path.glob('tac02/*.txt')], key=get_index_from_path)
+
+    # The number of GoPro videos, GelSight paths and TAC-02 paths must match
+    assert len(gelsight_paths) == len(tac02_paths) and len(gelsight_paths) == len(video_dirs)
+    num_videos = len(video_dirs)
 
     # ignore camera
     ignore_cam_serials = set()
@@ -157,7 +171,11 @@ def main(input, output, tcp_offset, tx_slam_tag,
     fps = None
     rows = list()
     with ExifToolHelper() as et:
-        for video_dir in video_dirs:            
+        for index in range(len(video_dirs)):
+            video_dir = video_dirs[index]
+            gelsight_path = gelsight_paths[index]
+            tac02_path = tac02_paths[index]
+            
             mp4_path = video_dir.joinpath('raw_video.mp4')
             meta = list(et.get_metadata(str(mp4_path)))[0]
             cam_serial = meta['QuickTime:CameraSerialNumber']
@@ -192,6 +210,8 @@ def main(input, output, tcp_offset, tx_slam_tag,
             
             rows.append({
                 'video_dir': video_dir,
+                'gelsight_path': gelsight_path,
+                'tac02_path': tac02_path,
                 'camera_serial': cam_serial,
                 'start_date': start_date,
                 'n_frames': n_frames,
@@ -204,7 +224,6 @@ def main(input, output, tcp_offset, tx_slam_tag,
         exit(1)
             
     video_meta_df = pd.DataFrame(data=rows)
-
 
     # %% stage 2
     # match videos into demos
@@ -251,6 +270,8 @@ def main(input, output, tcp_offset, tx_slam_tag,
             on_videos.remove(event['vid_idx'])
             on_cameras.remove(event['camera_serial'])
         assert len(on_videos) == len(on_cameras)
+        
+        assert len(on_videos) <= 1, "TMI only supports single-hand training for now"
         
         if len(on_cameras) == n_cameras:
             # start demo episode where all cameras are recording
@@ -504,6 +525,8 @@ def main(input, output, tcp_offset, tx_slam_tag,
     #     }],
     #     "cameras": [{
     #         "video_path": str,
+    #         "gelsight_path": str,
+    #         "tac02_path": str,
     #         "video_start_end": Tuple[int,int]
     #     }]
     # }]
@@ -580,6 +603,8 @@ def main(input, output, tcp_offset, tx_slam_tag,
 
             start_frame_idx = cam_start_frame_idxs[cam_idx]
             video_dir = row['video_dir']
+            gelsight_path = row['gelsight_path']
+            tac02_path = row['tac02_path']
             
             # load check data
             check_path = video_dir.joinpath('check_result.txt')
@@ -753,6 +778,8 @@ def main(input, output, tcp_offset, tx_slam_tag,
                 vid_start_frame = cam_start_frame_idxs[cam_idx]
                 cameras.append({
                     "video_path": str(video_dir.joinpath('raw_video.mp4').relative_to(video_dir.parent)),
+                    "gelsight_path": gelsight_path,
+                    "tac02_path": tac02_path,
                     "video_start_end": (start+vid_start_frame, end+vid_start_frame)
                 })
             
@@ -767,6 +794,8 @@ def main(input, output, tcp_offset, tx_slam_tag,
 
     print(dropped_camera_count)
     print("n_dropped_demos", n_dropped_demos)
+    
+    print("Number of videos used in dataset_plan.pkl:", len(all_plans))
 
     # %%
     # dump the plan to pickle

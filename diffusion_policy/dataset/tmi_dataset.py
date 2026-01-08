@@ -26,7 +26,7 @@ from umi.common.pose_util import pose_to_mat, mat_to_pose10d
 
 register_codecs()
 
-class UmiDataset(BaseDataset):
+class TmiDataset(BaseDataset):
     def __init__(self,
         shape_meta: dict,
         dataset_path: str,
@@ -206,7 +206,7 @@ class UmiDataset(BaseDataset):
                 data_cache[key].append(copy.deepcopy(batch['obs'][key]))
             data_cache['action'].append(copy.deepcopy(batch['action']))
         self.sampler.ignore_rgb(False)
-
+        
         for key in data_cache.keys():
             data_cache[key] = np.concatenate(data_cache[key])
             print(key, data_cache[key].shape)
@@ -238,6 +238,8 @@ class UmiDataset(BaseDataset):
             elif key.endswith('rot_axis_angle') or 'rot_axis_angle_wrt' in key:
                 this_normalizer = get_identity_normalizer_from_stat(stat)
             elif key.endswith('gripper_width'):
+                this_normalizer = get_range_normalizer_from_stat(stat)
+            elif 'tac02' in key:
                 this_normalizer = get_range_normalizer_from_stat(stat)
             else:
                 raise RuntimeError('unsupported')

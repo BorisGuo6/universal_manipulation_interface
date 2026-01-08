@@ -19,7 +19,7 @@ from umi.common.cv_util import get_gripper_width
 @click.command()
 @click.option('-i', '--input', required=True, help='Tag detection pkl')
 @click.option('-o', '--output', required=True, help='output json')
-@click.option('-t', '--tag_det_threshold', type=float, default=0.8)
+@click.option('-t', '--tag_det_threshold', type=float, default=0.75) # changed to 0.75 because TMI typically results in slightly lower confidence values
 @click.option('-nz', '--nominal_z', type=float, default=0.072, help="nominal Z value for gripper finger tag")
 def main(input, output, tag_det_threshold, nominal_z):
     tag_detection_results = pickle.load(open(input, 'rb'))

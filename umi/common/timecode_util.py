@@ -3,6 +3,8 @@ from fractions import Fraction
 import datetime
 import av
 
+# GoPro time zone offset (after accounting for daylight savings time)
+TIME_ZONE_OFFSET = 9 
 
 def timecode_to_seconds(
         timecode: str, frame_rate: Union[int, float, Fraction]
@@ -36,7 +38,13 @@ def stream_get_start_datetime(stream: av.stream.Stream) -> datetime.datetime:
     creation_time = stream.metadata['creation_time']
     
     # get time within the day
+    timezone_offset_seconds = TIME_ZONE_OFFSET * 3600
     seconds_since_midnight = float(timecode_to_seconds(timecode=tc, frame_rate=frame_rate))
+    
+    # Ensure UTC date is correct - original version had a bug when the UTC date does not match the local time date
+    seconds_since_midnight = (seconds_since_midnight - timezone_offset_seconds + 86400) % 86400
+    seconds_since_midnight += timezone_offset_seconds
+    
     delta = datetime.timedelta(seconds=seconds_since_midnight)
     
     # get dates

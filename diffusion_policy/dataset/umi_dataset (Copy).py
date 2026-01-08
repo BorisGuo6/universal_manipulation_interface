@@ -209,7 +209,6 @@ class UmiDataset(BaseDataset):
 
         for key in data_cache.keys():
             data_cache[key] = np.concatenate(data_cache[key])
-            print(key, data_cache[key].shape)
             assert data_cache[key].shape[0] == len(self.sampler)
             assert len(data_cache[key].shape) == 3
             B, T, D = data_cache[key].shape
