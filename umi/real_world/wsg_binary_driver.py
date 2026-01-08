@@ -107,7 +107,7 @@ def args_to_bytes(*args, int_bytes=1):
 
 
 class WSGBinaryDriver:
-    def __init__(self, hostname='192.168.0.103', port=1000):
+    def __init__(self, hostname='192.168.1.40', port=10001):
         self.hostname = hostname
         self.port = port
         self.tcp_sock = None
@@ -144,16 +144,19 @@ class WSGBinaryDriver:
     def msg_receive(self) -> dict:
         # syncing
         sync = 0
+        print("Receiving")
         while sync != 3:
             res = self.tcp_sock.recv(1)
             if res == 0xAA.to_bytes(1, 'little'):
                 sync += 1
         
         # read header
+        print("Reading header")
         cmd_id_b = self.tcp_sock.recv(1)
         cmd_id = int.from_bytes(cmd_id_b, 'little')
 
         # read size
+        print("Reading size")
         size_b = self.tcp_sock.recv(2)
         size = int.from_bytes(size_b, 'little')
         
@@ -317,10 +320,227 @@ class WSGBinaryDriver:
         return self.custom_script(0xB1, position, velocity, kp, kd, travel_force_limit, blocked_force_limit)
 
 
+
+class WPGBinaryDriver:
+    def __init__(self, hostname='192.168.1.40', port=10001):
+        self.hostname = hostname
+        self.port = port
+        self.tcp_sock = None
+
+    def start(self):
+        self.tcp_sock = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
+        self.tcp_sock.connect((self.hostname, self.port))
+        # self.ack_fast_stop()
+    
+    def stop(self):
+        self.stop_cmd()
+        self.disconnect()
+        self.tcp_sock.close()
+        return
+    
+    def __enter__(self):
+        self.start()
+        return self
+    
+    def __exit__(self, exc_type, exc_val, exc_tb):
+        self.stop()
+    
+    # ================= low level API ================
+
+    def msg_send(self, str_command):
+        answer_length = self.tcp_sock.send(bytes(str_command + "\n", 'utf-8'))
+        answer = self.tcp_sock.recv(1024)
+        return answer.decode().replace("\n", "")
+
+    def msg_receive(self) -> dict:
+        # syncing
+        sync = 0
+        print("Receiving")
+        while sync != 3:
+            res = self.tcp_sock.recv(1)
+            if res == 0xAA.to_bytes(1, 'little'):
+                sync += 1
+        
+        # read header
+        print("Reading header")
+        cmd_id_b = self.tcp_sock.recv(1)
+        cmd_id = int.from_bytes(cmd_id_b, 'little')
+
+        # read size
+        print("Reading size")
+        size_b = self.tcp_sock.recv(2)
+        size = int.from_bytes(size_b, 'little')
+        
+        # read payload
+        payload_b = self.tcp_sock.recv(size)
+        status_code = int.from_bytes(payload_b[:2], 'little')
+
+        parameters_b = payload_b[2:]
+
+        # read checksum
+        checksum_b = self.tcp_sock.recv(2)
+        
+        # correct checksum ends in zero
+        header_checksum = 0x50f5
+        msg_checksum = checksum_update_crc16(
+            cmd_id_b + size_b + payload_b + checksum_b, crc=header_checksum)
+        if msg_checksum != 0:
+            raise RuntimeError('Corrupted packet received from WSG')
+        
+        result = {
+            'command_id': cmd_id,
+            'status_code': status_code,
+            'payload_bytes': parameters_b
+        }
+        return result
+    
+    def cmd_submit(self, cmd_id: int, payload: bytes=b'', pending: bool=True, ignore_other=False):
+        res = self.msg_send(cmd_id, payload)
+        if res < 0:
+            raise RuntimeError("Message send failed.")
+
+        # receive response, repeat if pending
+        msg = None
+        keep_running = True
+        while keep_running:
+            msg = self.msg_receive()
+            if ignore_other and msg['command_id'] != cmd_id:
+                continue
+
+            if msg['command_id'] != cmd_id:
+                raise RuntimeError(
+                    "Response ID ({:02X}) does not match submitted command ID ({:02X})\n".format(
+                    msg['command_id'], cmd_id))
+            if pending:
+                status = msg['status_code']
+            keep_running = pending and status == StatusCode.E_CMD_PENDING.value
+        return msg
+
+    # ============== mid level API ================
+
+    def act(self, cmd: CommandId, *args, wait=True, ignore_other=False):
+        msg = self.cmd_submit(
+            cmd_id=cmd.value,
+            payload=args_to_bytes(*args),
+            pending=wait,
+            ignore_other=ignore_other)
+        msg['command_id'] = CommandId(msg['command_id'])
+        msg['status_code'] = StatusCode(msg['status_code'])
+
+        status = msg['status_code']
+        if status != StatusCode.E_SUCCESS:
+            raise RuntimeError(f'Command {cmd} not successful: {status}')
+        return msg
+    
+
+    # =============== high level API ===============
+
+    def disconnect(self):
+        # use msg_send to no wait for response
+        return self.msg_send("BYE()")
+
+    def homing(self, positive_direction=True, wait=True):
+        return self.msg_send("HOME(0)")
+    
+    def pre_position(self, 
+                     width: float, speed: float, 
+                     clamp_on_block: bool=True, wait=True, force=20000):
+        
+        
+        return self.msg_send(f"FLEXGRIP(0,{width},{force},{speed},0)")
+    
+
+    def ack_fault(self):
+        return self.act(CommandId.AckFastStop, 'ack', wait=False, ignore_other=True)
+    
+    def stop_cmd(self):
+        return self.act(CommandId.Stop, wait=False, ignore_other=True)
+
+    def custom_script(self, cmd_id: int, *args):
+
+        ## returns information about the current gripper position
+        state = int(self.msg_send("DEVSTATE[0]?")[-1])
+        velocity = int(self.msg_send("VALUE[0][1]?")[12:])
+        info = {
+            'state': state,
+            'position': int(self.msg_send("VALUE[0][0]?")[12:]),
+            'velocity': velocity,
+            'force_motor': int(self.msg_send("VALUE[0][2]?")[12:]),
+            'measure_timestamp': int(self.msg_send("VALUE[0][3]?")[12:]),
+            'is_moving': velocity != 0
+        }
+
+        return info
+
+        # Custom payload format:
+        # 0:	Unused
+        # 1..4	float
+        # .... one float each
+        payload_args = [0]
+        for arg in args:
+            payload_args.append(float(arg))
+        payload = args_to_bytes(*payload_args, int_bytes=1)
+
+        # send message
+        msg = self.cmd_submit(cmd_id=cmd_id, payload=payload, pending=False)
+        status = StatusCode(msg['status_code'])
+        response_payload = msg['payload_bytes']
+        if status == StatusCode.E_CMD_UNKNOWN:
+            raise RuntimeError('Command unknown - make sure script (cmd_measure.lua) is running')
+        if status != StatusCode.E_SUCCESS:
+            raise RuntimeError('Command failed')
+        if len(response_payload) != 17:
+            raise RuntimeError("Response payload incorrect (", 
+                               "".join("{:02X}".format(b) for b in response_payload),
+                               ")")
+        
+        # parse payload
+        state = response_payload[0]
+        values = list()
+        for i in range(4):
+            start = i * 4 + 1
+            end = start + 4
+            values.append(struct.unpack('<f', response_payload[start:end])[0])
+
+        info = {
+            'state': state,
+            'position': values[0],
+            'velocity': values[1],
+            'force_motor': values[2],
+            'measure_timestamp': values[3],
+            'is_moving': (state & 0x02) != 0
+        }
+        # info = {
+        #     'state': 0,
+        #     'position': 100.,
+        #     'velocity': 0.,
+        #     'force_motor': 0.,
+        #     'is_moving': 0.
+        # }
+        return info
+
+    def script_query(self):
+        return self.custom_script(0xB0)
+    
+    def script_position_pd(self, 
+                           position: float, velocity: float,
+                           kp: float=15.0, kd: float=1e-3,
+                           travel_force_limit: float=80.0, 
+                           blocked_force_limit: float=None):
+        if blocked_force_limit is None:
+            blocked_force_limit = travel_force_limit
+        assert kp > 0
+        assert kd >= 0
+
+        self.msg_send(f"FLEXGRIP(0,{position},{int(travel_force_limit)},{velocity},0)")
+        #return self.custom_script(0xB1, position, velocity, kp, kd, travel_force_limit, blocked_force_limit)
+
+
+
 def test():
     import numpy as np
     import time
-    with WSGBinaryDriver(hostname='wsg50-00004544.internal.tri.global', port=1000) as wsg:
+    with WPGBinaryDriver(hostname='192.168.1.40', port=10001) as wsg:
         # ACK
         # msg = wsg.cmd_submit(0x24, bytearray([0x61, 0x63, 0x6B]))
         msg = wsg.ack_fault()
@@ -384,4 +604,22 @@ def test():
         # wsg.msg_send(0x30, bytearray([0x00, 0x00, 0x00, 0x00, 0x16, 0x43]))
         # cmd_id_b, payload_b, checksum_b = wsg.msg_receive()
         # time.sleep(1.0)
+
+def test_true():
+    import numpy as np
+    import time
+    WPG = WPGBinaryDriver()
+    WPG.start()
+    print("WPG connected!")
+
+    # msg = "HOME(0)"
+    # answer = WPG.msg_send(msg)
+    # print("Homing completed")
+    # print(answer)
+
+    while True:
+        info_state = WPG.script_query()
+        print(info_state)
+    
+test_true()
         

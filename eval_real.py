@@ -272,17 +272,17 @@ def main(input, output, robot_config,
             while True:
                 # ========= human control loop ==========
                 print("Human in control!")
-                robot_states = env.get_robot_state()
-                target_pose = np.stack([rs['TargetTCPPose'] for rs in robot_states])
+                # robot_states = env.get_robot_state()
+                # # target_pose = np.stack([rs['TargetTCPPose'] for rs in robot_states])
 
-                gripper_states = env.get_gripper_state()
-                gripper_target_pos = np.asarray([gs['gripper_position'] for gs in gripper_states])
+                # gripper_states = env.get_gripper_state()
+                # gripper_target_pos = np.asarray([gs['gripper_position'] for gs in gripper_states])
                 
-                control_robot_idx_list = [0]
+                # control_robot_idx_list = [0]
 
-                t_start = time.monotonic()
-                iter_idx = 0
-                while True:
+                # t_start = time.monotonic()
+                # iter_idx = 0
+                # while True:
                     # calculate timing
                     t_cycle_end = t_start + (iter_idx + 1) * dt
                     t_sample = t_cycle_end - command_latency

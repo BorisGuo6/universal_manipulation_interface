@@ -44,14 +44,15 @@ from umi.common.precise_sleep import precise_wait
 from umi.real_world.real_env import RealEnv
 from umi.real_world.real_inference_util import (get_real_obs_dict,
                                                 get_real_obs_resolution)
+from umi.real_world.spacemouse_shared_memory import Spacemouse
 
 OmegaConf.register_new_resolver("eval", eval, replace=True)
 
 @click.command()
 @click.option('--input', '-i', required=True, help='Path to checkpoint')
 @click.option('--output', '-o', required=True, help='Directory to save recording')
-@click.option('--robot_ip', default='172.16.0.2')
-@click.option('--gripper_ip', default='192.168.1.40')
+@click.option('--robot_ip', default='192.168.0.9')
+@click.option('--gripper_ip', default='192.168.0.27')
 # @click.option('--robot_ip', default='172.24.95.8')
 # @click.option('--gripper_ip', default='172.24.95.18')
 @click.option('--match_dataset', '-m', default=None, help='Dataset used to overlay and adjust initial condition')
@@ -149,7 +150,7 @@ def main(input, output, robot_ip, gripper_ip, match_dataset, match_episode,
     print("action_offset:", action_offset)
 
     with SharedMemoryManager() as shm_manager:
-        with RealEnv(
+        with Spacemouse(shm_manager=shm_manager) as sm, RealEnv(
             output_dir=output, 
             robot_ip=robot_ip,
             gripper_ip=gripper_ip,
@@ -239,6 +240,35 @@ def main(input, output, robot_ip, gripper_ip, match_dataset, match_episode,
                         break
 
                     precise_wait(t_sample)
+                    # get teleop command
+                    sm_state = sm.get_motion_state_transformed()
+                    # print(sm_state)
+                    dpos = sm_state[:3] * (env.max_pos_speed / frequency)
+                    drot_xyz = sm_state[3:] * (env.max_rot_speed / frequency)
+
+                    drot = st.Rotation.from_euler('xyz', drot_xyz)
+                    target_pose[:3] += dpos
+                    target_pose[3:] = (drot * st.Rotation.from_rotvec(
+                        target_pose[3:])).as_rotvec()
+                    
+                    dpos = 0
+                    if sm.is_button_pressed(0):
+                        # close gripper
+                        dpos = -gripper_speed / frequency
+                    if sm.is_button_pressed(1):
+                        dpos = gripper_speed / frequency
+                    gripper_target_pos = np.clip(gripper_target_pos + dpos, 0, max_gripper_width)
+
+                    action = np.zeros((7,))
+                    action[:6] = target_pose
+                    action[-1] = gripper_target_pos                    
+                    
+                    # execute teleop command
+                    env.exec_actions(
+                        actions=[action], 
+                        timestamps=[t_command_target-time.monotonic()+time.time()])
+                    precise_wait(t_cycle_end)
+                    iter_idx += 1
                 
                 # ========== policy control loop ==============
                 try:

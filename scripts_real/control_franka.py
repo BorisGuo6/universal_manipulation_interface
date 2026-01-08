@@ -24,8 +24,8 @@ from umi.real_world.franka_interpolation_controller import FrankaInterpolationCo
 
 # %%
 @click.command()
-@click.option('-rh', '--robot_hostname', default='172.16.0.3')
-@click.option('-gh', '--gripper_hostname', default='172.24.95.27')
+@click.option('-rh', '--robot_hostname', default='172.16.0.2')
+@click.option('-gh', '--gripper_hostname', default='192.168.1.40')
 @click.option('-gp', '--gripper_port', type=int, default=1000)
 @click.option('-f', '--frequency', type=float, default=30)
 @click.option('-gs', '--gripper_speed', type=float, default=200.0)
