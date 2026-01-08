@@ -1,0 +1,450 @@
+nohup: ignoring input
+Found 245 MP4 videos
+Skipping GX014048.MP4, already moved.
+Skipping GX014132.MP4, already moved.
+Skipping GX013904.MP4, already moved.
+Skipping GX014087.MP4, already moved.
+Skipping GX013914.MP4, already moved.
+Skipping GX014077.MP4, already moved.
+Skipping GX013928.MP4, already moved.
+Skipping GX013995.MP4, already moved.
+Skipping GX013934.MP4, already moved.
+Skipping GX014012.MP4, already moved.
+Skipping GX014036.MP4, already moved.
+Skipping GX013964.MP4, already moved.
+Skipping GX013973.MP4, already moved.
+Skipping GX013926.MP4, already moved.
+Skipping GX014064.MP4, already moved.
+Skipping GX014008.MP4, already moved.
+Skipping GX014081.MP4, already moved.
+Skipping GX014111.MP4, already moved.
+Skipping GX014114.MP4, already moved.
+Skipping GX014095.MP4, already moved.
+Skipping GX014146.MP4, already moved.
+Skipping GX013966.MP4, already moved.
+Skipping GX014135.MP4, already moved.
+Skipping GX014088.MP4, already moved.
+Skipping GX013974.MP4, already moved.
+Skipping GX014029.MP4, already moved.
+Skipping GX013930.MP4, already moved.
+Skipping GX014005.MP4, already moved.
+Skipping GX014119.MP4, already moved.
+Skipping GX013968.MP4, already moved.
+Skipping GX013925.MP4, already moved.
+Skipping GX014031.MP4, already moved.
+Skipping GX014113.MP4, already moved.
+Skipping GX013979.MP4, already moved.
+Skipping GX013931.MP4, already moved.
+Skipping GX014069.MP4, already moved.
+Skipping GX014026.MP4, already moved.
+Skipping GX014083.MP4, already moved.
+Skipping GX014010.MP4, already moved.
+Skipping GX014067.MP4, already moved.
+Skipping GX014076.MP4, already moved.
+Skipping GX013977.MP4, already moved.
+Skipping GX013947.MP4, already moved.
+Skipping GX014122.MP4, already moved.
+Skipping GX014007.MP4, already moved.
+Skipping GX014059.MP4, already moved.
+Skipping GX014140.MP4, already moved.
+Skipping GX013965.MP4, already moved.
+Skipping GX014016.MP4, already moved.
+Skipping GX014136.MP4, already moved.
+Skipping GX013987.MP4, already moved.
+Skipping GX013950.MP4, already moved.
+Skipping GX014033.MP4, already moved.
+Skipping GX014035.MP4, already moved.
+Skipping GX013955.MP4, already moved.
+Skipping GX013978.MP4, already moved.
+Skipping GX013941.MP4, already moved.
+Skipping GX013940.MP4, already moved.
+Skipping GX013906.MP4, already moved.
+Skipping GX014056.MP4, already moved.
+Skipping GX013945.MP4, already moved.
+Skipping GX013983.MP4, already moved.
+Skipping GX014123.MP4, already moved.
+Skipping GX014091.MP4, already moved.
+Skipping GX014097.MP4, already moved.
+Skipping GX013999.MP4, already moved.
+Skipping GX014068.MP4, already moved.
+Skipping GX014082.MP4, already moved.
+Skipping GX013981.MP4, already moved.
+Skipping GX014080.MP4, already moved.
+Skipping GX014058.MP4, already moved.
+Skipping GX014128.MP4, already moved.
+Skipping GX014023.MP4, already moved.
+Skipping GX014133.MP4, already moved.
+Skipping GX013923.MP4, already moved.
+Skipping GX013961.MP4, already moved.
+Skipping GX013991.MP4, already moved.
+Skipping GX014144.MP4, already moved.
+Skipping GX013962.MP4, already moved.
+Skipping GX013953.MP4, already moved.
+Skipping GX013943.MP4, already moved.
+Skipping GX013902.MP4, already moved.
+Skipping GX013909.MP4, already moved.
+Skipping GX014066.MP4, already moved.
+Skipping GX014129.MP4, already moved.
+Skipping GX014090.MP4, already moved.
+Skipping GX014049.MP4, already moved.
+Skipping GX014051.MP4, already moved.
+Skipping GX014134.MP4, already moved.
+Skipping GX014002.MP4, already moved.
+Skipping GX014071.MP4, already moved.
+Skipping GX013919.MP4, already moved.
+Skipping GX014110.MP4, already moved.
+Skipping GX013915.MP4, already moved.
+Skipping GX014019.MP4, already moved.
+Skipping GX013970.MP4, already moved.
+Skipping GX014060.MP4, already moved.
+Skipping GX014093.MP4, already moved.
+Skipping GX014127.MP4, already moved.
+Skipping GX014103.MP4, already moved.
+Skipping GX014046.MP4, already moved.
+Skipping GX014145.MP4, already moved.
+Skipping GX014001.MP4, already moved.
+Skipping GX014117.MP4, already moved.
+Skipping GX014070.MP4, already moved.
+Skipping GX013958.MP4, already moved.
+Skipping GX013967.MP4, already moved.
+Skipping GX013942.MP4, already moved.
+Skipping GX014120.MP4, already moved.
+Skipping GX014052.MP4, already moved.
+Skipping GX014124.MP4, already moved.
+Skipping GX014013.MP4, already moved.
+Skipping GX014014.MP4, already moved.
+Skipping GX014061.MP4, already moved.
+Skipping GX013956.MP4, already moved.
+Skipping GX014004.MP4, already moved.
+Skipping GX014055.MP4, already moved.
+Skipping GX014098.MP4, already moved.
+Skipping GX013932.MP4, already moved.
+Skipping GX014078.MP4, already moved.
+Skipping GX013985.MP4, already moved.
+Skipping GX014085.MP4, already moved.
+Skipping GX014025.MP4, already moved.
+Skipping GX013996.MP4, already moved.
+Skipping GX013924.MP4, already moved.
+Skipping GX013993.MP4, already moved.
+Skipping GX014137.MP4, already moved.
+Skipping GX014107.MP4, already moved.
+Skipping GX014042.MP4, already moved.
+Skipping GX013933.MP4, already moved.
+Skipping GX014037.MP4, already moved.
+Skipping GX013907.MP4, already moved.
+Skipping GX014065.MP4, already moved.
+Skipping GX013969.MP4, already moved.
+Skipping GX014101.MP4, already moved.
+Skipping GX014121.MP4, already moved.
+Skipping GX013957.MP4, already moved.
+Skipping GX014054.MP4, already moved.
+Skipping GX014125.MP4, already moved.
+Skipping GX013937.MP4, already moved.
+Skipping GX013935.MP4, already moved.
+Skipping GX014099.MP4, already moved.
+Skipping GX014032.MP4, already moved.
+Skipping GX014089.MP4, already moved.
+Skipping GX014050.MP4, already moved.
+Skipping GX013920.MP4, already moved.
+Skipping GX013944.MP4, already moved.
+Skipping GX013952.MP4, already moved.
+Skipping GX014034.MP4, already moved.
+Skipping GX014086.MP4, already moved.
+Skipping GX013912.MP4, already moved.
+Skipping GX014039.MP4, already moved.
+Skipping GX013975.MP4, already moved.
+Skipping GX014045.MP4, already moved.
+Skipping GX014092.MP4, already moved.
+Skipping GX013916.MP4, already moved.
+Skipping GX014011.MP4, already moved.
+Skipping GX014009.MP4, already moved.
+Skipping GX014102.MP4, already moved.
+Skipping GX014038.MP4, already moved.
+Skipping GX014142.MP4, already moved.
+Skipping GX014096.MP4, already moved.
+Skipping GX014109.MP4, already moved.
+Skipping GX014130.MP4, already moved.
+Skipping GX013994.MP4, already moved.
+Skipping GX014106.MP4, already moved.
+Skipping GX014141.MP4, already moved.
+Skipping GX014100.MP4, already moved.
+Skipping GX013972.MP4, already moved.
+Skipping GX014072.MP4, already moved.
+Skipping GX014139.MP4, already moved.
+Skipping GX014118.MP4, already moved.
+Skipping GX013998.MP4, already moved.
+Skipping GX013984.MP4, already moved.
+Skipping GX014062.MP4, already moved.
+Skipping GX013905.MP4, already moved.
+Skipping GX014116.MP4, already moved.
+Skipping GX014020.MP4, already moved.
+Skipping GX014022.MP4, already moved.
+Skipping GX014030.MP4, already moved.
+Skipping GX014047.MP4, already moved.
+Skipping GX013976.MP4, already moved.
+Skipping GX014105.MP4, already moved.
+Skipping GX014094.MP4, already moved.
+Skipping GX014027.MP4, already moved.
+Skipping GX013971.MP4, already moved.
+Skipping GX013911.MP4, already moved.
+Skipping GX014131.MP4, already moved.
+Skipping GX014006.MP4, already moved.
+Skipping GX013980.MP4, already moved.
+Skipping GX013949.MP4, already moved.
+Skipping GX014017.MP4, already moved.
+Skipping GX013986.MP4, already moved.
+Skipping GX014044.MP4, already moved.
+Skipping GX014040.MP4, already moved.
+Skipping GX013936.MP4, already moved.
+Skipping GX013954.MP4, already moved.
+Skipping GX013959.MP4, already moved.
+Skipping GX014074.MP4, already moved.
+Skipping GX014147.MP4, already moved.
+Skipping GX014143.MP4, already moved.
+Skipping GX013951.MP4, already moved.
+Skipping GX013946.MP4, already moved.
+Skipping GX014104.MP4, already moved.
+Skipping GX013989.MP4, already moved.
+Skipping GX014000.MP4, already moved.
+Skipping GX013960.MP4, already moved.
+Skipping GX013990.MP4, already moved.
+Skipping GX013910.MP4, already moved.
+Skipping GX014018.MP4, already moved.
+Skipping GX013922.MP4, already moved.
+Skipping GX013929.MP4, already moved.
+Skipping GX013908.MP4, already moved.
+Skipping GX014043.MP4, already moved.
+Skipping GX014126.MP4, already moved.
+Skipping GX013921.MP4, already moved.
+Skipping GX013927.MP4, already moved.
+Skipping GX014041.MP4, already moved.
+Skipping GX014075.MP4, already moved.
+Skipping GX013938.MP4, already moved.
+Skipping GX013988.MP4, already moved.
+Skipping GX014079.MP4, already moved.
+Skipping GX013948.MP4, already moved.
+Skipping GX014112.MP4, already moved.
+Skipping GX013939.MP4, already moved.
+Skipping GX014073.MP4, already moved.
+Skipping GX014115.MP4, already moved.
+Skipping GX013903.MP4, already moved.
+Skipping GX013963.MP4, already moved.
+Skipping GX014084.MP4, already moved.
+Skipping GX013992.MP4, already moved.
+Skipping GX014053.MP4, already moved.
+Skipping GX013918.MP4, already moved.
+Skipping GX014028.MP4, already moved.
+Skipping GX014108.MP4, already moved.
+Skipping GX014057.MP4, already moved.
+Skipping GX014015.MP4, already moved.
+Skipping GX013913.MP4, already moved.
+Skipping GX014138.MP4, already moved.
+Skipping GX013997.MP4, already moved.
+Skipping GX014021.MP4, already moved.
+Skipping GX013917.MP4, already moved.
+Skipping GX014024.MP4, already moved.
+Skipping GX013894.MP4, already moved.
+Skipping mapping.mp4, already moved.
+latest: Pulling from chicheng/openicc
+Digest: sha256:7742be9e0cce2ca642e2489f4765821000c24f275aaa4123b8026f3a69468bf6
+Status: Image is up to date for chicheng/openicc:latest
+docker.io/chicheng/openicc:latest
+Pulling docker image chicheng/openicc:latest
+Found 245 video dirs
+  0%|          | 0/245 [00:00<?, ?it/s]
+  0%|          | 0/245 [00:00<?, ?it/s][A  0%|          | 1/245 [00:01<07:42,  1.90s/it]
+ 13%|█▎        | 33/245 [00:01<00:12, 17.41it/s][A  1%|          | 2/245 [00:02<03:55,  1.03it/s]
+ 14%|█▍        | 35/245 [00:02<00:14, 14.74it/s][A  2%|▏         | 5/245 [00:02<01:14,  3.20it/s]  2%|▏         | 6/245 [00:02<01:10,  3.40it/s]
+ 16%|█▌        | 38/245 [00:02<00:15, 13.43it/s][A  3%|▎         | 7/245 [00:02<01:08,  3.47it/s]
+ 16%|█▌        | 39/245 [00:02<00:18, 11.44it/s][A  3%|▎         | 8/245 [00:03<01:20,  2.94it/s]
+ 16%|█▋        | 40/245 [00:03<00:24,  8.30it/s][A  4%|▎         | 9/245 [00:04<02:12,  1.79it/s]
+ 17%|█▋        | 41/245 [00:04<00:46,  4.39it/s][A  4%|▍         | 11/245 [00:04<01:27,  2.69it/s]
+ 18%|█▊        | 43/245 [00:04<00:41,  4.82it/s][A  5%|▌         | 13/245 [00:05<01:12,  3.22it/s]
+ 18%|█▊        | 45/245 [00:05<00:41,  4.78it/s][A  6%|▌         | 14/245 [00:05<01:02,  3.68it/s]
+ 19%|█▉        | 46/245 [00:05<00:39,  5.07it/s][A  6%|▌         | 15/245 [00:05<00:54,  4.22it/s]
+ 19%|█▉        | 47/245 [00:05<00:36,  5.43it/s][A  7%|▋         | 16/245 [00:06<01:45,  2.17it/s]
+ 20%|█▉        | 48/245 [00:06<01:13,  2.66it/s][A  7%|▋         | 18/245 [00:06<01:10,  3.22it/s]
+ 20%|██        | 50/245 [00:06<00:53,  3.64it/s][A  8%|▊         | 19/245 [00:07<01:14,  3.03it/s]
+ 21%|██        | 51/245 [00:07<00:58,  3.33it/s][A  8%|▊         | 20/245 [00:07<01:06,  3.36it/s]
+ 21%|██        | 52/245 [00:07<00:53,  3.62it/s][A  9%|▊         | 21/245 [00:07<01:25,  2.62it/s]
+ 22%|██▏       | 53/245 [00:07<01:09,  2.76it/s][A  9%|▉         | 23/245 [00:08<00:56,  3.90it/s]
+ 22%|██▏       | 55/245 [00:08<00:47,  4.02it/s][A 10%|█         | 25/245 [00:09<01:13,  3.00it/s]
+ 23%|██▎       | 57/245 [00:09<01:01,  3.06it/s][A 11%|█         | 26/245 [00:09<01:13,  2.96it/s]
+ 24%|██▎       | 58/245 [00:09<01:02,  3.01it/s][A 11%|█         | 27/245 [00:09<01:19,  2.74it/s]
+ 24%|██▍       | 59/245 [00:09<01:07,  2.77it/s][A 11%|█▏        | 28/245 [00:10<01:08,  3.16it/s]
+ 24%|██▍       | 60/245 [00:10<00:57,  3.19it/s][A 12%|█▏        | 29/245 [00:10<00:59,  3.65it/s]
+ 25%|██▍       | 61/245 [00:10<00:50,  3.68it/s][A 12%|█▏        | 30/245 [00:10<00:48,  4.40it/s]
+ 25%|██▌       | 62/245 [00:10<00:41,  4.42it/s][A 13%|█▎        | 32/245 [00:11<01:10,  3.00it/s]
+ 26%|██▌       | 64/245 [00:11<01:00,  3.01it/s][A 13%|█▎        | 33/245 [00:11<01:05,  3.25it/s]
+ 27%|██▋       | 65/245 [00:11<00:55,  3.26it/s][A 14%|█▍        | 34/245 [00:11<00:57,  3.69it/s]
+ 27%|██▋       | 66/245 [00:11<00:48,  3.70it/s][A 14%|█▍        | 35/245 [00:12<01:04,  3.28it/s]
+ 27%|██▋       | 67/245 [00:12<00:54,  3.28it/s][A 15%|█▍        | 36/245 [00:12<01:03,  3.27it/s]
+ 28%|██▊       | 68/245 [00:12<00:54,  3.27it/s][A 15%|█▌        | 37/245 [00:13<01:28,  2.35it/s]
+ 28%|██▊       | 69/245 [00:13<01:14,  2.35it/s][A 16%|█▌        | 39/245 [00:13<01:14,  2.77it/s]
+ 29%|██▉       | 71/245 [00:13<01:02,  2.77it/s][A 17%|█▋        | 41/245 [00:14<01:02,  3.25it/s]
+ 30%|██▉       | 73/245 [00:14<00:52,  3.25it/s][A 17%|█▋        | 42/245 [00:14<01:15,  2.70it/s]
+ 30%|███       | 74/245 [00:14<01:03,  2.70it/s][A 18%|█▊        | 44/245 [00:15<01:03,  3.17it/s]
+ 31%|███       | 76/245 [00:15<00:53,  3.17it/s][A 18%|█▊        | 45/245 [00:15<01:02,  3.22it/s]
+ 31%|███▏      | 77/245 [00:15<00:52,  3.22it/s][A 19%|█▉        | 46/245 [00:15<00:57,  3.48it/s]
+ 32%|███▏      | 78/245 [00:15<00:48,  3.48it/s][A 19%|█▉        | 47/245 [00:15<00:51,  3.85it/s]
+ 32%|███▏      | 79/245 [00:15<00:43,  3.85it/s][A 20%|█▉        | 48/245 [00:17<01:49,  1.80it/s]
+ 33%|███▎      | 80/245 [00:17<01:31,  1.80it/s][A 20%|██        | 50/245 [00:17<01:07,  2.89it/s]
+ 33%|███▎      | 82/245 [00:17<00:56,  2.89it/s][A 21%|██        | 51/245 [00:17<01:11,  2.72it/s]
+ 34%|███▍      | 83/245 [00:17<00:59,  2.72it/s][A 21%|██        | 52/245 [00:18<01:08,  2.83it/s]
+ 34%|███▍      | 84/245 [00:18<00:56,  2.83it/s][A 22%|██▏       | 53/245 [00:18<00:56,  3.42it/s]
+ 35%|███▍      | 85/245 [00:18<00:46,  3.42it/s][A 22%|██▏       | 54/245 [00:18<01:03,  3.03it/s]
+ 35%|███▌      | 86/245 [00:18<00:52,  3.03it/s][A 22%|██▏       | 55/245 [00:18<00:51,  3.70it/s]
+ 36%|███▌      | 87/245 [00:18<00:42,  3.70it/s][A 23%|██▎       | 56/245 [00:18<00:46,  4.07it/s]
+ 36%|███▌      | 88/245 [00:18<00:38,  4.07it/s][A 23%|██▎       | 57/245 [00:19<00:58,  3.23it/s]
+ 36%|███▋      | 89/245 [00:19<00:48,  3.23it/s][A 24%|██▍       | 59/245 [00:19<00:52,  3.53it/s]
+ 37%|███▋      | 91/245 [00:19<00:43,  3.53it/s][A 24%|██▍       | 60/245 [00:20<00:55,  3.31it/s]
+ 38%|███▊      | 92/245 [00:20<00:46,  3.31it/s][A 25%|██▍       | 61/245 [00:21<01:16,  2.42it/s]
+ 38%|███▊      | 93/245 [00:21<01:02,  2.42it/s][A 26%|██▌       | 63/245 [00:21<00:57,  3.14it/s]
+ 39%|███▉      | 95/245 [00:21<00:47,  3.14it/s][A 26%|██▌       | 64/245 [00:22<01:24,  2.13it/s]
+ 39%|███▉      | 96/245 [00:22<01:09,  2.13it/s][A 27%|██▋       | 65/245 [00:22<01:07,  2.65it/s]
+ 40%|███▉      | 97/245 [00:22<00:55,  2.65it/s][A 28%|██▊       | 68/245 [00:23<01:09,  2.54it/s]
+ 41%|████      | 100/245 [00:23<00:57,  2.54it/s][A 29%|██▊       | 70/245 [00:23<00:49,  3.52it/s]
+ 42%|████▏     | 102/245 [00:23<00:40,  3.52it/s][A 29%|██▉       | 71/245 [00:24<01:01,  2.84it/s]
+ 42%|████▏     | 103/245 [00:24<00:49,  2.84it/s][A 29%|██▉       | 72/245 [00:24<01:03,  2.74it/s]
+ 42%|████▏     | 104/245 [00:24<00:51,  2.74it/s][A 30%|██▉       | 73/245 [00:25<00:54,  3.15it/s]
+ 43%|████▎     | 105/245 [00:25<00:44,  3.15it/s][A 31%|███       | 76/245 [00:25<00:41,  4.04it/s]
+ 44%|████▍     | 108/245 [00:25<00:33,  4.04it/s][A 31%|███▏      | 77/245 [00:25<00:39,  4.28it/s]
+ 44%|████▍     | 109/245 [00:25<00:31,  4.28it/s][A 32%|███▏      | 78/245 [00:26<01:01,  2.71it/s]
+ 45%|████▍     | 110/245 [00:26<00:49,  2.71it/s][A 33%|███▎      | 80/245 [00:27<00:51,  3.18it/s]
+ 46%|████▌     | 112/245 [00:27<00:41,  3.18it/s][A 33%|███▎      | 82/245 [00:27<00:41,  3.91it/s]
+ 47%|████▋     | 114/245 [00:27<00:33,  3.91it/s][A 34%|███▍      | 83/245 [00:27<00:44,  3.66it/s]
+ 47%|████▋     | 115/245 [00:27<00:35,  3.66it/s][A 34%|███▍      | 84/245 [00:27<00:38,  4.13it/s]
+ 47%|████▋     | 116/245 [00:27<00:31,  4.13it/s][A 35%|███▍      | 85/245 [00:28<00:43,  3.67it/s]
+ 48%|████▊     | 117/245 [00:28<00:34,  3.67it/s][A 35%|███▌      | 86/245 [00:29<01:16,  2.08it/s]
+ 48%|████▊     | 118/245 [00:29<01:01,  2.08it/s][A 36%|███▌      | 87/245 [00:29<01:04,  2.44it/s]
+ 49%|████▊     | 119/245 [00:29<00:51,  2.44it/s][A 36%|███▌      | 88/245 [00:29<00:51,  3.04it/s]
+ 49%|████▉     | 120/245 [00:29<00:41,  3.04it/s][A 36%|███▋      | 89/245 [00:29<00:50,  3.10it/s]
+ 49%|████▉     | 121/245 [00:29<00:40,  3.10it/s][A 37%|███▋      | 90/245 [00:30<00:42,  3.64it/s]
+ 50%|████▉     | 122/245 [00:30<00:33,  3.64it/s][A 37%|███▋      | 91/245 [00:30<00:35,  4.36it/s]
+ 50%|█████     | 123/245 [00:30<00:27,  4.36it/s][A 38%|███▊      | 92/245 [00:30<00:55,  2.75it/s]
+ 51%|█████     | 124/245 [00:30<00:44,  2.75it/s][A 38%|███▊      | 93/245 [00:31<01:16,  1.98it/s]
+ 51%|█████     | 125/245 [00:31<01:00,  1.98it/s][A 38%|███▊      | 94/245 [00:31<00:58,  2.59it/s]
+ 51%|█████▏    | 126/245 [00:31<00:45,  2.59it/s][A 39%|███▉      | 95/245 [00:31<00:47,  3.14it/s]
+ 52%|█████▏    | 127/245 [00:31<00:37,  3.14it/s][A 39%|███▉      | 96/245 [00:32<00:43,  3.43it/s]
+ 52%|█████▏    | 128/245 [00:32<00:34,  3.43it/s][A 40%|████      | 98/245 [00:32<00:47,  3.12it/s]
+ 53%|█████▎    | 130/245 [00:32<00:36,  3.12it/s][A 41%|████      | 100/245 [00:33<00:32,  4.44it/s]
+ 54%|█████▍    | 132/245 [00:33<00:25,  4.43it/s][A 41%|████      | 101/245 [00:34<01:01,  2.33it/s]
+ 54%|█████▍    | 133/245 [00:34<00:48,  2.33it/s][A 42%|████▏     | 102/245 [00:34<00:50,  2.84it/s]
+ 55%|█████▍    | 134/245 [00:34<00:39,  2.84it/s][A 42%|████▏     | 104/245 [00:34<00:36,  3.90it/s]
+ 56%|█████▌    | 136/245 [00:34<00:27,  3.90it/s][A 43%|████▎     | 105/245 [00:34<00:41,  3.35it/s]
+ 56%|█████▌    | 137/245 [00:34<00:32,  3.35it/s][A 43%|████▎     | 106/245 [00:35<00:39,  3.53it/s]
+ 56%|█████▋    | 138/245 [00:35<00:30,  3.53it/s][A 44%|████▎     | 107/245 [00:35<00:36,  3.80it/s]
+ 57%|█████▋    | 139/245 [00:35<00:27,  3.79it/s][A 44%|████▍     | 108/245 [00:35<00:31,  4.29it/s]
+ 57%|█████▋    | 140/245 [00:35<00:24,  4.29it/s][A 44%|████▍     | 109/245 [00:35<00:29,  4.65it/s]
+ 58%|█████▊    | 141/245 [00:35<00:22,  4.65it/s][A 45%|████▍     | 110/245 [00:36<00:41,  3.23it/s]
+ 58%|█████▊    | 142/245 [00:36<00:31,  3.23it/s][A 45%|████▌     | 111/245 [00:37<01:27,  1.54it/s]
+ 58%|█████▊    | 143/245 [00:37<01:06,  1.54it/s][A 47%|████▋     | 114/245 [00:38<00:43,  3.01it/s]
+ 60%|█████▉    | 146/245 [00:38<00:32,  3.01it/s][A 47%|████▋     | 115/245 [00:38<00:37,  3.48it/s]
+ 60%|██████    | 147/245 [00:38<00:28,  3.48it/s][A 48%|████▊     | 117/245 [00:38<00:31,  4.04it/s]
+ 61%|██████    | 149/245 [00:38<00:23,  4.04it/s][A 48%|████▊     | 118/245 [00:38<00:30,  4.13it/s]
+ 61%|██████    | 150/245 [00:38<00:22,  4.13it/s][A 49%|████▊     | 119/245 [00:38<00:28,  4.41it/s]
+ 62%|██████▏   | 151/245 [00:38<00:21,  4.41it/s][A 49%|████▉     | 120/245 [00:39<00:36,  3.45it/s]
+ 62%|██████▏   | 152/245 [00:39<00:26,  3.45it/s][A 49%|████▉     | 121/245 [00:40<00:56,  2.20it/s]
+ 62%|██████▏   | 153/245 [00:40<00:41,  2.20it/s][A 50%|█████     | 123/245 [00:40<00:35,  3.41it/s]
+ 63%|██████▎   | 155/245 [00:40<00:26,  3.41it/s][A 51%|█████     | 124/245 [00:40<00:39,  3.07it/s]
+ 64%|██████▎   | 156/245 [00:40<00:29,  3.07it/s][A 51%|█████     | 125/245 [00:40<00:32,  3.71it/s]
+ 64%|██████▍   | 157/245 [00:40<00:23,  3.71it/s][A 51%|█████▏    | 126/245 [00:41<00:48,  2.44it/s]
+ 64%|██████▍   | 158/245 [00:41<00:35,  2.44it/s][A 52%|█████▏    | 127/245 [00:41<00:41,  2.85it/s]
+ 65%|██████▍   | 159/245 [00:41<00:30,  2.85it/s][A 52%|█████▏    | 128/245 [00:42<00:36,  3.17it/s]
+ 65%|██████▌   | 160/245 [00:42<00:26,  3.17it/s][A 53%|█████▎    | 129/245 [00:42<00:45,  2.53it/s]
+ 66%|██████▌   | 161/245 [00:42<00:33,  2.53it/s][A 53%|█████▎    | 130/245 [00:42<00:37,  3.06it/s]
+ 66%|██████▌   | 162/245 [00:42<00:27,  3.06it/s][A 54%|█████▍    | 132/245 [00:43<00:27,  4.06it/s]
+ 67%|██████▋   | 164/245 [00:43<00:19,  4.06it/s][A 54%|█████▍    | 133/245 [00:43<00:36,  3.05it/s]
+ 67%|██████▋   | 165/245 [00:43<00:26,  3.05it/s][A 55%|█████▍    | 134/245 [00:43<00:30,  3.67it/s]
+ 68%|██████▊   | 166/245 [00:43<00:21,  3.67it/s][A 56%|█████▌    | 136/245 [00:44<00:26,  4.04it/s]
+ 69%|██████▊   | 168/245 [00:44<00:19,  4.04it/s][A 56%|█████▌    | 137/245 [00:44<00:33,  3.19it/s]
+ 69%|██████▉   | 169/245 [00:44<00:23,  3.19it/s][A 56%|█████▋    | 138/245 [00:45<00:50,  2.11it/s]
+ 69%|██████▉   | 170/245 [00:45<00:35,  2.11it/s][A 57%|█████▋    | 139/245 [00:46<00:49,  2.14it/s]
+ 70%|██████▉   | 171/245 [00:46<00:34,  2.14it/s][A 58%|█████▊    | 142/245 [00:46<00:25,  4.09it/s]
+ 71%|███████   | 174/245 [00:46<00:17,  4.09it/s][A 58%|█████▊    | 143/245 [00:46<00:22,  4.61it/s]
+ 71%|███████▏  | 175/245 [00:46<00:15,  4.61it/s][A 59%|█████▉    | 144/245 [00:47<00:30,  3.30it/s]
+ 72%|███████▏  | 176/245 [00:47<00:20,  3.30it/s][A 59%|█████▉    | 145/245 [00:48<00:55,  1.79it/s]
+ 72%|███████▏  | 177/245 [00:48<00:38,  1.79it/s][A 60%|██████    | 147/245 [00:48<00:34,  2.84it/s]
+ 73%|███████▎  | 179/245 [00:48<00:23,  2.84it/s][A 61%|██████    | 149/245 [00:48<00:25,  3.83it/s]
+ 74%|███████▍  | 181/245 [00:48<00:16,  3.83it/s][A 61%|██████    | 150/245 [00:49<00:36,  2.59it/s]
+ 74%|███████▍  | 182/245 [00:49<00:24,  2.59it/s][A 62%|██████▏   | 151/245 [00:49<00:30,  3.10it/s]
+ 75%|███████▍  | 183/245 [00:49<00:19,  3.10it/s][A 62%|██████▏   | 152/245 [00:50<00:33,  2.75it/s]
+ 75%|███████▌  | 184/245 [00:50<00:22,  2.75it/s][A 62%|██████▏   | 153/245 [00:50<00:33,  2.72it/s]
+ 76%|███████▌  | 185/245 [00:50<00:22,  2.72it/s][A 63%|██████▎   | 154/245 [00:50<00:28,  3.16it/s]
+ 76%|███████▌  | 186/245 [00:50<00:18,  3.16it/s][A 63%|██████▎   | 155/245 [00:51<00:29,  3.09it/s]
+ 76%|███████▋  | 187/245 [00:51<00:18,  3.09it/s][A 64%|██████▎   | 156/245 [00:51<00:24,  3.69it/s]
+ 77%|███████▋  | 188/245 [00:51<00:15,  3.69it/s][A 64%|██████▍   | 158/245 [00:52<00:26,  3.27it/s]
+ 78%|███████▊  | 190/245 [00:52<00:16,  3.27it/s][A 65%|██████▌   | 160/245 [00:53<00:38,  2.19it/s]
+ 78%|███████▊  | 192/245 [00:53<00:24,  2.19it/s][A 66%|██████▌   | 162/245 [00:53<00:29,  2.84it/s]
+ 79%|███████▉  | 194/245 [00:53<00:17,  2.84it/s][A 67%|██████▋   | 163/245 [00:53<00:25,  3.24it/s]
+ 80%|███████▉  | 195/245 [00:53<00:15,  3.24it/s][A 67%|██████▋   | 165/245 [00:54<00:17,  4.63it/s]
+ 80%|████████  | 197/245 [00:54<00:10,  4.63it/s][A 68%|██████▊   | 166/245 [00:54<00:20,  3.88it/s]
+ 81%|████████  | 198/245 [00:54<00:12,  3.88it/s][A 68%|██████▊   | 167/245 [00:54<00:24,  3.22it/s]
+ 81%|████████  | 199/245 [00:54<00:14,  3.22it/s][A 69%|██████▉   | 169/245 [00:55<00:17,  4.22it/s]
+ 82%|████████▏ | 201/245 [00:55<00:10,  4.22it/s][A 69%|██████▉   | 170/245 [00:56<00:27,  2.69it/s]
+ 82%|████████▏ | 202/245 [00:56<00:16,  2.69it/s][A 70%|███████   | 172/245 [00:56<00:18,  3.93it/s]
+ 83%|████████▎ | 204/245 [00:56<00:10,  3.93it/s][A 71%|███████   | 173/245 [00:56<00:18,  3.83it/s]
+ 84%|████████▎ | 205/245 [00:56<00:10,  3.83it/s][A 71%|███████   | 174/245 [00:57<00:27,  2.55it/s]
+ 84%|████████▍ | 206/245 [00:57<00:15,  2.55it/s][A 72%|███████▏  | 176/245 [00:57<00:25,  2.66it/s]
+ 85%|████████▍ | 208/245 [00:57<00:13,  2.66it/s][A 72%|███████▏  | 177/245 [00:58<00:22,  3.02it/s]
+ 85%|████████▌ | 209/245 [00:58<00:11,  3.02it/s][A 73%|███████▎  | 179/245 [00:58<00:15,  4.16it/s]
+ 86%|████████▌ | 211/245 [00:58<00:08,  4.16it/s][A 73%|███████▎  | 180/245 [00:58<00:18,  3.60it/s]
+ 87%|████████▋ | 212/245 [00:58<00:09,  3.60it/s][A 74%|███████▍  | 181/245 [00:59<00:20,  3.12it/s]
+ 87%|████████▋ | 213/245 [00:59<00:10,  3.12it/s][A 74%|███████▍  | 182/245 [00:59<00:19,  3.30it/s]
+ 87%|████████▋ | 214/245 [00:59<00:09,  3.30it/s][A 75%|███████▍  | 183/245 [01:00<00:26,  2.35it/s]
+ 88%|████████▊ | 215/245 [01:00<00:12,  2.35it/s][A 75%|███████▌  | 184/245 [01:00<00:24,  2.52it/s]
+ 88%|████████▊ | 216/245 [01:00<00:11,  2.52it/s][A 76%|███████▌  | 185/245 [01:01<00:27,  2.19it/s]
+ 89%|████████▊ | 217/245 [01:01<00:12,  2.19it/s][A 76%|███████▋  | 187/245 [01:01<00:17,  3.38it/s]
+ 89%|████████▉ | 219/245 [01:01<00:07,  3.37it/s][A 77%|███████▋  | 188/245 [01:01<00:15,  3.63it/s]
+ 90%|████████▉ | 220/245 [01:01<00:06,  3.63it/s][A 77%|███████▋  | 189/245 [01:02<00:24,  2.25it/s]
+ 90%|█████████ | 221/245 [01:02<00:10,  2.25it/s][A 78%|███████▊  | 190/245 [01:02<00:19,  2.81it/s]
+ 91%|█████████ | 222/245 [01:02<00:08,  2.81it/s][A 78%|███████▊  | 191/245 [01:02<00:16,  3.25it/s]
+ 91%|█████████ | 223/245 [01:02<00:06,  3.25it/s][A 78%|███████▊  | 192/245 [01:02<00:13,  3.90it/s]
+ 91%|█████████▏| 224/245 [01:02<00:05,  3.89it/s][A 79%|███████▉  | 193/245 [01:03<00:15,  3.28it/s]
+ 92%|█████████▏| 225/245 [01:03<00:06,  3.28it/s][A 79%|███████▉  | 194/245 [01:03<00:20,  2.51it/s]
+ 92%|█████████▏| 226/245 [01:03<00:07,  2.51it/s][A 80%|████████  | 196/245 [01:04<00:16,  3.00it/s]
+ 93%|█████████▎| 228/245 [01:04<00:05,  3.00it/s][A 81%|████████  | 198/245 [01:04<00:14,  3.30it/s]
+ 94%|█████████▍| 230/245 [01:04<00:04,  3.30it/s][A 82%|████████▏ | 200/245 [01:05<00:16,  2.73it/s]
+ 95%|█████████▍| 232/245 [01:05<00:04,  2.73it/s][A 82%|████████▏ | 202/245 [01:06<00:14,  2.91it/s]
+ 96%|█████████▌| 234/245 [01:06<00:03,  2.91it/s][A 83%|████████▎ | 203/245 [01:06<00:13,  3.00it/s]
+ 96%|█████████▌| 235/245 [01:06<00:03,  3.00it/s][A 83%|████████▎ | 204/245 [01:07<00:12,  3.18it/s]
+ 96%|█████████▋| 236/245 [01:07<00:02,  3.18it/s][A 84%|████████▎ | 205/245 [01:07<00:10,  3.75it/s]
+ 97%|█████████▋| 237/245 [01:07<00:02,  3.75it/s][A 84%|████████▍ | 207/245 [01:07<00:12,  3.11it/s]
+ 98%|█████████▊| 239/245 [01:07<00:01,  3.11it/s][A 85%|████████▍ | 208/245 [01:08<00:10,  3.49it/s]
+ 98%|█████████▊| 240/245 [01:08<00:01,  3.49it/s][A 85%|████████▌ | 209/245 [01:08<00:10,  3.56it/s]
+ 98%|█████████▊| 241/245 [01:08<00:01,  3.56it/s][A 86%|████████▌ | 210/245 [01:08<00:12,  2.89it/s]
+ 99%|█████████▉| 242/245 [01:08<00:01,  2.89it/s][A 86%|████████▌ | 211/245 [01:09<00:12,  2.77it/s]
+ 99%|█████████▉| 243/245 [01:09<00:00,  2.77it/s][A 87%|████████▋ | 212/245 [01:09<00:09,  3.35it/s]
+100%|█████████▉| 244/245 [01:09<00:00,  3.35it/s][A 87%|████████▋ | 213/245 [01:10<00:13,  2.31it/s]
+100%|██████████| 245/245 [01:10<00:00,  2.31it/s][A100%|██████████| 245/245 [01:10<00:00,  3.49it/s]
+100%|██████████| 245/245 [01:19<00:00,  3.46it/s]100%|██████████| 245/245 [01:19<00:00,  3.10it/s]
+Done! Result:
+[CompletedProcess(args=['docker', 'run', '--rm', '--volume', '/home/crslab/UMI/tactile_manipulation_interface/data/task2_tmi_redo/demos/demo_C3501326233128_2025.04.01_18.39.14.604183:/data', 'chicheng/openicc:latest', 'node', '/OpenImuCameraCalibrator/javascript/extract_metadata_single.js', '/data/raw_video.mp4', '/data/imu_data.json'], returncode=0), CompletedProcess(args=['docker', 'run', '--rm', '--volume', '/home/crslab/UMI/tactile_manipulation_interface/data/task2_tmi_redo/demos/demo_C3501326233128_2025.04.01_18.28.59.656517:/data', 'chicheng/openicc:latest', 'node', '/OpenImuCameraCalibrator/javascript/extract_metadata_single.js', '/data/raw_video.mp4', '/data/imu_data.json'], returncode=0), CompletedProcess(args=['docker', 'run', '--rm', '--volume', '/home/crslab/UMI/tactile_manipulation_interface/data/task2_tmi_redo/demos/demo_C3501326233128_2025.04.01_18.08.11.075850:/data', 'chicheng/openicc:latest', 'node', '/OpenImuCameraCalibrator/javascript/extract_metadata_single.js', '/data/raw_video.mp4', '/data/imu_data.json'], returncode=0), CompletedProcess(args=['docker', 'run', '--rm', '--volume', '/home/crslab/UMI/tactile_manipulation_interface/data/task2_tmi_redo/demos/demo_C3501326233128_2025.04.01_18.29.15.005183:/data', 'chicheng/openicc:latest', 'node', '/OpenImuCameraCalibrator/javascript/extract_metadata_single.js', '/data/raw_video.mp4', '/data/imu_data.json'], returncode=0), CompletedProcess(args=['docker', 'run', '--rm', '--volume', '/home/crslab/UMI/tactile_manipulation_interface/data/task2_tmi_redo/demos/demo_C3501326233128_2025.04.01_17.35.45.365417:/data', 'chicheng/openicc:latest', 'node', '/OpenImuCameraCalibrator/javascript/extract_metadata_single.js', '/data/raw_video.mp4', '/data/imu_data.json'], returncode=0), CompletedProcess(args=['docker', 'run', '--rm', '--volume', '/home/crslab/UMI/tactile_manipulation_interface/data/task2_tmi_redo/demos/demo_C3501326233128_2025.04.01_17.37.56.446367:/data', 'chicheng/openicc:latest', 'node', '/OpenImuCameraCalibrator/javascript/extract_metadata_single.js', '/data/raw_video.mp4', '/data/imu_data.json'], returncode=0), CompletedProcess(args=['docker', 'run', '--rm', '--volume', '/home/crslab/UMI/tactile_manipulation_interface/data/task2_tmi_redo/demos/demo_C3501326233128_2025.04.01_17.44.16.209083:/data', 'chicheng/openicc:latest', 'node', '/OpenImuCameraCalibrator/javascript/extract_metadata_single.js', '/data/raw_video.mp4', '/data/imu_data.json'], returncode=0), CompletedProcess(args=['docker', 'run', '--rm', '--volume', '/home/crslab/UMI/tactile_manipulation_interface/data/task2_tmi_redo/demos/demo_C3501326233128_2025.04.01_18.29.30.453950:/data', 'chicheng/openicc:latest', 'node', '/OpenImuCameraCalibrator/javascript/extract_metadata_single.js', '/data/raw_video.mp4', '/data/imu_data.json'], returncode=0), CompletedProcess(args=['docker', 'run', '--rm', '--volume', '/home/crslab/UMI/tactile_manipulation_interface/data/task2_tmi_redo/demos/demo_C3501326233128_2025.04.01_18.12.45.867033:/data', 'chicheng/openicc:latest', 'node', '/OpenImuCameraCalibrator/javascript/extract_metadata_single.js', '/data/raw_video.mp4', '/data/imu_data.json'], returncode=0), CompletedProcess(args=['docker', 'run', '--rm', '--volume', '/home/crslab/UMI/tactile_manipulation_interface/data/task2_tmi_redo/demos/demo_C3501326233128_2025.04.01_18.09.00.108167:/data', 'chicheng/openicc:latest', 'node', '/OpenImuCameraCalibrator/javascript/extract_metadata_single.js', '/data/raw_video.mp4', '/data/imu_data.json'], returncode=0), CompletedProcess(args=['docker', 'run', '--rm', '--volume', '/home/crslab/UMI/tactile_manipulation_interface/data/task2_tmi_redo/demos/demo_C3501326233128_2025.04.01_17.36.50.463783:/data', 'chicheng/openicc:latest', 'node', '/OpenImuCameraCalibrator/javascript/extract_metadata_single.js', '/data/raw_video.mp4', '/data/imu_data.json'], returncode=0), CompletedProcess(args=['docker', 'run', '--rm', '--volume', '/home/crslab/UMI/tactile_manipulation_interface/data/task2_tmi_redo/demos/demo_C3501326233128_2025.04.01_18.35.44.527650:/data', 'chicheng/openicc:latest', 'node', '/OpenImuCameraCalibrator/javascript/extract_metadata_single.js', '/data/raw_video.mp4', '/data/imu_data.json'], returncode=0), CompletedProcess(args=['docker', 'run', '--rm', '--volume', '/home/crslab/UMI/tactile_manipulation_interface/data/task2_tmi_redo/demos/demo_C3501326233128_2025.04.01_18.32.15.802467:/data', 'chicheng/openicc:latest', 'node', '/OpenImuCameraCalibrator/javascript/extract_metadata_single.js', '/data/raw_video.mp4', '/data/imu_data.json'], returncode=0), CompletedProcess(args=['docker', 'run', '--rm', '--volume', '/home/crslab/UMI/tactile_manipulation_interface/data/task2_tmi_redo/demos/demo_C3501326233128_2025.04.01_18.24.16.106583:/data', 'chicheng/openicc:latest', 'node', '/OpenImuCameraCalibrator/javascript/extract_metadata_single.js', '/data/raw_video.mp4', '/data/imu_data.json'], returncode=0), CompletedProcess(args=['docker', 'run', '--rm', '--volume', '/home/crslab/UMI/tactile_manipulation_interface/data/task2_tmi_redo/demos/demo_C3501326233128_2025.04.01_18.22.57.911800:/data', 'chicheng/openicc:latest', 'node', '/OpenImuCameraCalibrator/javascript/extract_metadata_single.js', '/data/raw_video.mp4', '/data/imu_data.json'], returncode=0), CompletedProcess(args=['docker', 'run', '--rm', '--volume', '/home/crslab/UMI/tactile_manipulation_interface/data/task2_tmi_redo/demos/demo_C3501326233128_2025.04.01_17.56.43.138600:/data', 'chicheng/openicc:latest', 'node', '/OpenImuCameraCalibrator/javascript/extract_metadata_single.js', '/data/raw_video.mp4', '/data/imu_data.json'], returncode=0), CompletedProcess(args=['docker', 'run', '--rm', '--volume', '/home/crslab/UMI/tactile_manipulation_interface/data/task2_tmi_redo/demos/demo_C3501326233128_2025.04.01_18.16.21.015300:/data', 'chicheng/openicc:latest', 'node', '/OpenImuCameraCalibrator/javascript/extract_metadata_single.js', '/data/raw_video.mp4', '/data/imu_data.json'], returncode=0), CompletedProcess(args=['docker', 'run', '--rm', '--volume', '/home/crslab/UMI/tactile_manipulation_interface/data/task2_tmi_redo/demos/demo_C3501326233128_2025.04.01_17.38.48.498367:/data', 'chicheng/openicc:latest', 'node', '/OpenImuCameraCalibrator/javascript/extract_metadata_single.js', '/data/raw_video.mp4', '/data/imu_data.json'], returncode=0), CompletedProcess(args=['docker', 'run', '--rm', '--volume', '/home/crslab/UMI/tactile_manipulation_interface/data/task2_tmi_redo/demos/demo_C3501326233128_2025.04.01_18.09.18.192900:/data', 'chicheng/openicc:latest', 'node', '/OpenImuCameraCalibrator/javascript/extract_metadata_single.js', '/data/raw_video.mp4', '/data/imu_data.json'], returncode=0), CompletedProcess(args=['docker', 'run', '--rm', '--volume', '/home/crslab/UMI/tactile_manipulation_interface/data/task2_tmi_redo/demos/demo_C3501326233128_2025.04.01_18.08.28.559983:/data', 'chicheng/openicc:latest', 'node', '/OpenImuCameraCalibrator/javascript/extract_metadata_single.js', '/data/raw_video.mp4', '/data/imu_data.json'], returncode=0), CompletedProcess(args=['docker', 'run', '--rm', '--volume', '/home/crslab/UMI/tactile_manipulation_interface/data/task2_tmi_redo/demos/demo_C3501326233128_2025.04.01_18.15.33.200867:/data', 'chicheng/openicc:latest', 'node', '/OpenImuCameraCalibrator/javascript/extract_metadata_single.js', '/data/raw_video.mp4', '/data/imu_data.json'], returncode=0), CompletedProcess(args=['docker', 'run', '--rm', '--volume', '/home/crslab/UMI/tactile_manipulation_interface/data/task2_tmi_redo/demos/demo_C3501326233128_2025.04.01_18.31.57.684367:/data', 'chicheng/openicc:latest', 'node', '/OpenImuCameraCalibrator/javascript/extract_metadata_single.js', '/data/raw_video.mp4', '/data/imu_data.json'], returncode=0), CompletedProcess(args=['docker', 'run', '--rm', '--volume', '/home/crslab/UMI/tactile_manipulation_interface/data/task2_tmi_redo/demos/demo_C3501326233128_2025.04.01_17.56.26.989133:/data', 'chicheng/openicc:latest', 'node', '/OpenImuCameraCalibrator/javascript/extract_metadata_single.js', '/data/raw_video.mp4', '/data/imu_data.json'], returncode=0), CompletedProcess(args=['docker', 'run', '--rm', '--volume', '/home/crslab/UMI/tactile_manipulation_interface/data/task2_tmi_redo/demos/demo_C3501326233128_2025.04.01_18.18.17.515017:/data', 'chicheng/openicc:latest', 'node', '/OpenImuCameraCalibrator/javascript/extract_metadata_single.js', '/data/raw_video.mp4', '/data/imu_data.json'], returncode=0), CompletedProcess(args=['docker', 'run', '--rm', '--volume', '/home/crslab/UMI/tactile_manipulation_interface/data/task2_tmi_redo/demos/demo_C3501326233128_2025.04.01_17.46.46.609333:/data', 'chicheng/openicc:latest', 'node', '/OpenImuCameraCalibrator/javascript/extract_metadata_single.js', '/data/raw_video.mp4', '/data/imu_data.json'], returncode=0), CompletedProcess(args=['docker', 'run', '--rm', '--volume', '/home/crslab/UMI/tactile_manipulation_interface/data/task2_tmi_redo/demos/demo_C3501326233128_2025.04.01_18.36.00.793900:/data', 'chicheng/openicc:latest', 'node', '/OpenImuCameraCalibrator/javascript/extract_metadata_single.js', '/data/raw_video.mp4', '/data/imu_data.json'], returncode=0), CompletedProcess(args=['docker', 'run', '--rm', '--volume', '/home/crslab/UMI/tactile_manipulation_interface/data/task2_tmi_redo/demos/demo_C3501326233128_2025.04.01_17.41.03.516583:/data', 'chicheng/openicc:latest', 'node', '/OpenImuCameraCalibrator/javascript/extract_metadata_single.js', '/data/raw_video.mp4', '/data/imu_data.json'], returncode=0), CompletedProcess(args=['docker', 'run', '--rm', '--volume', '/home/crslab/UMI/tactile_manipulation_interface/data/task2_tmi_redo/demos/demo_C3501326233128_2025.04.01_18.03.19.401133:/data', 'chicheng/openicc:latest', 'node', '/OpenImuCameraCalibrator/javascript/extract_metadata_single.js', '/data/raw_video.mp4', '/data/imu_data.json'], returncode=0), CompletedProcess(args=['docker', 'run', '--rm', '--volume', '/home/crslab/UMI/tactile_manipulation_interface/data/task2_tmi_redo/demos/demo_C3501326233128_2025.04.01_17.36.17.764450:/data', 'chicheng/openicc:latest', 'node', '/OpenImuCameraCalibrator/javascript/extract_metadata_single.js', '/data/raw_video.mp4', '/data/imu_data.json'], returncode=0), CompletedProcess(args=['docker', 'run', '--rm', '--volume', '/home/crslab/UMI/tactile_manipulation_interface/data/task2_tmi_redo/demos/demo_C3501326233128_2025.04.01_17.48.40.790067:/data', 'chicheng/openicc:latest', 'node', '/OpenImuCameraCalibrator/javascript/extract_metadata_single.js', '/data/raw_video.mp4', '/data/imu_data.json'], returncode=0), CompletedProcess(args=['docker', 'run', '--rm', '--volume', '/home/crslab/UMI/tactile_manipulation_interface/data/task2_tmi_redo/demos/demo_C3501326233128_2025.04.01_18.31.09.235967:/data', 'chicheng/openicc:latest', 'node', '/OpenImuCameraCalibrator/javascript/extract_metadata_single.js', '/data/raw_video.mp4', '/data/imu_data.json'], returncode=0), CompletedProcess(args=['docker', 'run', '--rm', '--volume', '/home/crslab/UMI/tactile_manipulation_interface/data/task2_tmi_redo/demos/demo_C3501326233128_2025.04.01_18.25.56.740450:/data', 'chicheng/openicc:latest', 'node', '/OpenImuCameraCalibrator/javascript/extract_metadata_single.js', '/data/raw_video.mp4', '/data/imu_data.json'], returncode=0)]
+latest: Pulling from chicheng/orb_slam3
+Digest: sha256:fbf562a6707a0fe9bafb04375c4cfb7b051156c14bc1e820f3f238b9aa17744f
+Status: Image is up to date for chicheng/orb_slam3:latest
+docker.io/chicheng/orb_slam3:latest
+Pulling docker image chicheng/orb_slam3:latest
+CompletedProcess(args=['docker', 'run', '--rm', '--volume', '/home/crslab/UMI/tactile_manipulation_interface/data/task2_tmi_redo/demos/mapping:/data', '--volume', '/home/crslab/UMI/tactile_manipulation_interface/data/task2_tmi_redo/demos/mapping:/map', 'chicheng/orb_slam3:latest', '/ORB_SLAM3/Examples/Monocular-Inertial/gopro_slam', '--vocabulary', '/ORB_SLAM3/Vocabulary/ORBvoc.txt', '--setting', '/ORB_SLAM3/Examples/Monocular-Inertial/gopro10_maxlens_fisheye_setting_v1_720.yaml', '--input_video', '/data/raw_video.mp4', '--input_imu_json', '/data/imu_data.json', '--output_trajectory_csv', '/data/mapping_camera_trajectory.csv', '--save_map', '/map/map_atlas.osa', '--mask_img', '/data/slam_mask.png'], returncode=0)
+Error response from daemon: Head "https://registry-1.docker.io/v2/chicheng/orb_slam3/manifests/latest": dial tcp: lookup registry-1.docker.io on 127.0.0.53:53: server misbehaving
+Found 244 video dirs
+Pulling docker image chicheng/orb_slam3:latest
+Docker pull failed!
+############## 00_process_videos #############
+############# 01_extract_gopro_imu ###########
+############# 02_create_map ###########
+############# 03_batch_slam ###########
+Traceback (most recent call last):
+  File "/home/crslab/UMI/tactile_manipulation_interface/run_slam_pipeline.py", line 120, in <module>
+    main()
+  File "/home/crslab/.conda/envs/umi/lib/python3.9/site-packages/click/core.py", line 1161, in __call__
+    return self.main(*args, **kwargs)
+  File "/home/crslab/.conda/envs/umi/lib/python3.9/site-packages/click/core.py", line 1082, in main
+    rv = self.invoke(ctx)
+  File "/home/crslab/.conda/envs/umi/lib/python3.9/site-packages/click/core.py", line 1443, in invoke
+    return ctx.invoke(self.callback, **ctx.params)
+  File "/home/crslab/.conda/envs/umi/lib/python3.9/site-packages/click/core.py", line 788, in invoke
+    return __callback(*args, **kwargs)
+  File "/home/crslab/UMI/tactile_manipulation_interface/run_slam_pipeline.py", line 79, in main
+    assert result.returncode == 0
+AssertionError
